@@ -1,3 +1,3 @@
-sudo add-apt-repository ppa:webupd8team/atom
-sudo apt update
-sudo apt install -y atom
+wget -O atom-amd64.deb https://atom.io/download/deb
+sudo apt install gdebi-core
+sudo gdebi atom-amd64.deb
